@@ -56,15 +56,63 @@
 		40CA7F0024C1544400800C67 /* Somatt */ = {
 			isa = PBXGroup;
 			children = (
+				40CA7F1724C17A0300800C67 /* Modaes */,
+				40CA7F1624C179E300800C67 /* Controllers */,
+				40CA7F1524C179C000800C67 /* View */,
 				40CA7F0124C1544400800C67 /* AppDelegate.swift */,
 				40CA7F0324C1544400800C67 /* SceneDelegate.swift */,
-				40CA7F0524C1544400800C67 /* ViewController.swift */,
-				40CA7F0724C1544400800C67 /* Main.storyboard */,
 				40CA7F0A24C1544400800C67 /* Assets.xcassets */,
 				40CA7F0C24C1544400800C67 /* LaunchScreen.storyboard */,
 				40CA7F0F24C1544400800C67 /* Info.plist */,
 			);
 			path = Somatt;
+			sourceTree = "<group>";
+		};
+		40CA7F1524C179C000800C67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				40CA7F0724C1544400800C67 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		40CA7F1624C179E300800C67 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				40CA7F1B24C17A3C00800C67 /* Login */,
+				40CA7F1A24C17A3100800C67 /* MainPage */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		40CA7F1724C17A0300800C67 /* Modaes */ = {
+			isa = PBXGroup;
+			children = (
+				40CA7F1824C17A1600800C67 /* Auth */,
+			);
+			path = Modaes;
+			sourceTree = "<group>";
+		};
+		40CA7F1824C17A1600800C67 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		40CA7F1A24C17A3100800C67 /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				40CA7F0524C1544400800C67 /* ViewController.swift */,
+			);
+			path = MainPage;
+			sourceTree = "<group>";
+		};
+		40CA7F1B24C17A3C00800C67 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
