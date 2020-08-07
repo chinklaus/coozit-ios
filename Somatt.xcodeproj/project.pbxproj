@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40389C3F24D80D4A009CF897 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40389C3E24D80D4A009CF897 /* Message.swift */; };
+		40A2453E24D2644F0083BD25 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A2453D24D2644F0083BD25 /* Constants.swift */; };
 		40CA7F0224C1544400800C67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CA7F0124C1544400800C67 /* AppDelegate.swift */; };
 		40CA7F0424C1544400800C67 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CA7F0324C1544400800C67 /* SceneDelegate.swift */; };
 		40CA7F0624C1544400800C67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CA7F0524C1544400800C67 /* ViewController.swift */; };
@@ -14,9 +16,15 @@
 		40CA7F0B24C1544400800C67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40CA7F0A24C1544400800C67 /* Assets.xcassets */; };
 		40CA7F0E24C1544400800C67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40CA7F0C24C1544400800C67 /* LaunchScreen.storyboard */; };
 		40CA7F1D24C18EFA00800C67 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CA7F1C24C18EFA00800C67 /* LoginViewController.swift */; };
+		40F48FE224DD4A3D004B584B /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F48FE024DD4A3D004B584B /* MessageCell.swift */; };
+		40F48FE324DD4A3D004B584B /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40F48FE124DD4A3D004B584B /* MessageCell.xib */; };
+		5F41241CA5959AB90C26FEC4 /* Pods_Somatt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4116E4CAC079F71B132BDF5C /* Pods_Somatt.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33F0EFEB926CE57A8FC229D9 /* Pods-Somatt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Somatt.release.xcconfig"; path = "Target Support Files/Pods-Somatt/Pods-Somatt.release.xcconfig"; sourceTree = "<group>"; };
+		40389C3E24D80D4A009CF897 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		40A2453D24D2644F0083BD25 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		40CA7EFE24C1544400800C67 /* Somatt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Somatt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40CA7F0124C1544400800C67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40CA7F0324C1544400800C67 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +34,10 @@
 		40CA7F0D24C1544400800C67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40CA7F0F24C1544400800C67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40CA7F1C24C18EFA00800C67 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		40F48FE024DD4A3D004B584B /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		40F48FE124DD4A3D004B584B /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		4116E4CAC079F71B132BDF5C /* Pods_Somatt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Somatt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F561556B1814980927511F4D /* Pods-Somatt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Somatt.debug.xcconfig"; path = "Target Support Files/Pods-Somatt/Pods-Somatt.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F41241CA5959AB90C26FEC4 /* Pods_Somatt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		033717407E5A4EA77AFDF2A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F561556B1814980927511F4D /* Pods-Somatt.debug.xcconfig */,
+				33F0EFEB926CE57A8FC229D9 /* Pods-Somatt.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		40CA7EF524C1544400800C67 = {
 			isa = PBXGroup;
 			children = (
 				40CA7F0024C1544400800C67 /* Somatt */,
 				40CA7EFF24C1544400800C67 /* Products */,
+				033717407E5A4EA77AFDF2A4 /* Pods */,
+				8E59A5019139A72283293E0B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,7 +82,7 @@
 		40CA7F0024C1544400800C67 /* Somatt */ = {
 			isa = PBXGroup;
 			children = (
-				40CA7F1724C17A0300800C67 /* Modaes */,
+				40CA7F1724C17A0300800C67 /* Modals */,
 				40CA7F1624C179E300800C67 /* Controllers */,
 				40CA7F1524C179C000800C67 /* View */,
 				40CA7F0124C1544400800C67 /* AppDelegate.swift */,
@@ -66,6 +90,7 @@
 				40CA7F0A24C1544400800C67 /* Assets.xcassets */,
 				40CA7F0C24C1544400800C67 /* LaunchScreen.storyboard */,
 				40CA7F0F24C1544400800C67 /* Info.plist */,
+				40A2453D24D2644F0083BD25 /* Constants.swift */,
 			);
 			path = Somatt;
 			sourceTree = "<group>";
@@ -74,6 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				40CA7F0724C1544400800C67 /* Main.storyboard */,
+				40F48FE024DD4A3D004B584B /* MessageCell.swift */,
+				40F48FE124DD4A3D004B584B /* MessageCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -87,12 +114,13 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		40CA7F1724C17A0300800C67 /* Modaes */ = {
+		40CA7F1724C17A0300800C67 /* Modals */ = {
 			isa = PBXGroup;
 			children = (
 				40CA7F1824C17A1600800C67 /* Auth */,
+				40389C3E24D80D4A009CF897 /* Message.swift */,
 			);
-			path = Modaes;
+			path = Modals;
 			sourceTree = "<group>";
 		};
 		40CA7F1824C17A1600800C67 /* Auth */ = {
@@ -118,6 +146,14 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		8E59A5019139A72283293E0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4116E4CAC079F71B132BDF5C /* Pods_Somatt.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -125,6 +161,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 40CA7F1224C1544400800C67 /* Build configuration list for PBXNativeTarget "Somatt" */;
 			buildPhases = (
+				B4DDC5E25FB57E265594032A /* [CP] Check Pods Manifest.lock */,
 				40CA7EFA24C1544400800C67 /* Sources */,
 				40CA7EFB24C1544400800C67 /* Frameworks */,
 				40CA7EFC24C1544400800C67 /* Resources */,
@@ -177,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40CA7F0E24C1544400800C67 /* LaunchScreen.storyboard in Resources */,
+				40F48FE324DD4A3D004B584B /* MessageCell.xib in Resources */,
 				40CA7F0B24C1544400800C67 /* Assets.xcassets in Resources */,
 				40CA7F0924C1544400800C67 /* Main.storyboard in Resources */,
 			);
@@ -184,15 +222,43 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B4DDC5E25FB57E265594032A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Somatt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		40CA7EFA24C1544400800C67 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40A2453E24D2644F0083BD25 /* Constants.swift in Sources */,
 				40CA7F0624C1544400800C67 /* ViewController.swift in Sources */,
 				40CA7F1D24C18EFA00800C67 /* LoginViewController.swift in Sources */,
+				40389C3F24D80D4A009CF897 /* Message.swift in Sources */,
 				40CA7F0224C1544400800C67 /* AppDelegate.swift in Sources */,
 				40CA7F0424C1544400800C67 /* SceneDelegate.swift in Sources */,
+				40F48FE224DD4A3D004B584B /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,9 +400,11 @@
 		};
 		40CA7F1324C1544400800C67 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F561556B1814980927511F4D /* Pods-Somatt.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J2ZR6R5A5X;
 				INFOPLIST_FILE = Somatt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -351,9 +419,11 @@
 		};
 		40CA7F1424C1544400800C67 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33F0EFEB926CE57A8FC229D9 /* Pods-Somatt.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J2ZR6R5A5X;
 				INFOPLIST_FILE = Somatt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
