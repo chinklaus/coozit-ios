@@ -1,6 +1,0 @@
-framework module Pods_Somatt {
-  umbrella header "Pods-Somatt-umbrella.h"
-
-  export *
-  module * { export * }
-}
