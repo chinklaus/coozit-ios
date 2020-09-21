@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4029AF0B25186280006D8044 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4029AF0A25186280006D8044 /* LoginViewController.swift */; };
+		4029AF0D2518A3F2006D8044 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4029AF0C2518A3F2006D8044 /* Extensions.swift */; };
 		40FA4478251860BC00781BCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FA4477251860BC00781BCC /* AppDelegate.swift */; };
 		40FA447A251860BC00781BCC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FA4479251860BC00781BCC /* SceneDelegate.swift */; };
 		40FA447C251860BC00781BCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FA447B251860BC00781BCC /* ViewController.swift */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4029AF0A25186280006D8044 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4029AF0C2518A3F2006D8044 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		40FA4474251860BC00781BCC /* somattt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = somattt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40FA4477251860BC00781BCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40FA4479251860BC00781BCC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,6 +39,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4029AF0725186216006D8044 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4029AF0A25186280006D8044 /* LoginViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4029AF0E2518A729006D8044 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4029AF0F2518A730006D8044 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		40FA446B251860BC00781BCC = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +80,16 @@
 		40FA4476251860BC00781BCC /* somattt */ = {
 			isa = PBXGroup;
 			children = (
+				4029AF0F2518A730006D8044 /* Views */,
+				4029AF0E2518A729006D8044 /* Models */,
+				4029AF0725186216006D8044 /* Controllers */,
 				40FA4477251860BC00781BCC /* AppDelegate.swift */,
 				40FA4479251860BC00781BCC /* SceneDelegate.swift */,
 				40FA447B251860BC00781BCC /* ViewController.swift */,
 				40FA4480251860BD00781BCC /* Assets.xcassets */,
 				40FA4482251860BD00781BCC /* LaunchScreen.storyboard */,
 				40FA4485251860BD00781BCC /* Info.plist */,
+				4029AF0C2518A3F2006D8044 /* Extensions.swift */,
 			);
 			path = somattt;
 			sourceTree = "<group>";
@@ -134,6 +164,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4029AF0D2518A3F2006D8044 /* Extensions.swift in Sources */,
+				4029AF0B25186280006D8044 /* LoginViewController.swift in Sources */,
 				40FA447C251860BC00781BCC /* ViewController.swift in Sources */,
 				40FA4478251860BC00781BCC /* AppDelegate.swift in Sources */,
 				40FA447A251860BC00781BCC /* SceneDelegate.swift in Sources */,
