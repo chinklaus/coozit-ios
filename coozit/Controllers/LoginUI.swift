@@ -14,7 +14,7 @@ struct LoginUI: View {
     var body: some View {
         NavigationView{
             VStack{
-                Text("Hello, World!")
+                Text("coozit!")
                 NavigationLink(destination: Register(), isActive: $login){
                     EmptyView()
                 }

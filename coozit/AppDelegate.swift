@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  somattt
+//  coozit
 //
-//  Created by Klaus Chin on 2020/9/21.
-//  Copyright © 2020 WPG. All rights reserved.
+//  Created by Klaus Chin on 2020/10/29.
+//  Copyright © 2020 coozit. All rights reserved.
 //
 
 import UIKit

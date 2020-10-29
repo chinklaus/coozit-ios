@@ -7,29 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4029AF0B25186280006D8044 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4029AF0A25186280006D8044 /* LoginViewController.swift */; };
-		4029AF0D2518A3F2006D8044 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4029AF0C2518A3F2006D8044 /* Extensions.swift */; };
-		40FA4478251860BC00781BCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FA4477251860BC00781BCC /* AppDelegate.swift */; };
-		40FA447A251860BC00781BCC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FA4479251860BC00781BCC /* SceneDelegate.swift */; };
-		40FA447C251860BC00781BCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FA447B251860BC00781BCC /* ViewController.swift */; };
-		40FA4481251860BD00781BCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40FA4480251860BD00781BCC /* Assets.xcassets */; };
-		40FA4484251860BD00781BCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40FA4482251860BD00781BCC /* LaunchScreen.storyboard */; };
+		40BF448C254A959000E564F6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF448B254A959000E564F6 /* LoginViewController.swift */; };
+		40BF448E254A95F700E564F6 /* LoginUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF448D254A95F700E564F6 /* LoginUI.swift */; };
+		40BF4490254A961100E564F6 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF448F254A961100E564F6 /* Register.swift */; };
+		40CD3EA6254A71F300B368F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CD3EA5254A71F300B368F0 /* AppDelegate.swift */; };
+		40CD3EA8254A71F300B368F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CD3EA7254A71F300B368F0 /* SceneDelegate.swift */; };
+		40CD3EAA254A71F300B368F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CD3EA9254A71F300B368F0 /* ContentView.swift */; };
+		40CD3EAC254A71F400B368F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40CD3EAB254A71F400B368F0 /* Assets.xcassets */; };
+		40CD3EAF254A71F400B368F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40CD3EAE254A71F400B368F0 /* Preview Assets.xcassets */; };
+		40CD3EB2254A71F400B368F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40CD3EB0254A71F400B368F0 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4029AF0A25186280006D8044 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		4029AF0C2518A3F2006D8044 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		40FA4474251860BC00781BCC /* somattt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = somattt.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		40FA4477251860BC00781BCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		40FA4479251860BC00781BCC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		40FA447B251860BC00781BCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		40FA4480251860BD00781BCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		40FA4483251860BD00781BCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		40FA4485251860BD00781BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40BF448B254A959000E564F6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		40BF448D254A95F700E564F6 /* LoginUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUI.swift; sourceTree = "<group>"; };
+		40BF448F254A961100E564F6 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		40CD3EA2254A71F300B368F0 /* coozit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coozit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40CD3EA5254A71F300B368F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40CD3EA7254A71F300B368F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		40CD3EA9254A71F300B368F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		40CD3EAB254A71F400B368F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40CD3EAE254A71F400B368F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		40CD3EB1254A71F400B368F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40CD3EB3254A71F400B368F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		40FA4471251860BC00781BCC /* Frameworks */ = {
+		40CD3E9F254A71F300B368F0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,97 +43,91 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4029AF0725186216006D8044 /* Controllers */ = {
+		40BF448A254A952400E564F6 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				4029AF0A25186280006D8044 /* LoginViewController.swift */,
+				40BF448B254A959000E564F6 /* LoginViewController.swift */,
+				40BF448D254A95F700E564F6 /* LoginUI.swift */,
+				40BF448F254A961100E564F6 /* Register.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		4029AF0E2518A729006D8044 /* Models */ = {
+		40CD3E99254A71F300B368F0 = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		4029AF0F2518A730006D8044 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		40FA446B251860BC00781BCC = {
-			isa = PBXGroup;
-			children = (
-				40FA4476251860BC00781BCC /* somattt */,
-				40FA4475251860BC00781BCC /* Products */,
+				40CD3EA4254A71F300B368F0 /* coozit */,
+				40CD3EA3254A71F300B368F0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		40FA4475251860BC00781BCC /* Products */ = {
+		40CD3EA3254A71F300B368F0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				40FA4474251860BC00781BCC /* somattt.app */,
+				40CD3EA2254A71F300B368F0 /* coozit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		40FA4476251860BC00781BCC /* somattt */ = {
+		40CD3EA4254A71F300B368F0 /* coozit */ = {
 			isa = PBXGroup;
 			children = (
-				4029AF0F2518A730006D8044 /* Views */,
-				4029AF0E2518A729006D8044 /* Models */,
-				4029AF0725186216006D8044 /* Controllers */,
-				40FA4477251860BC00781BCC /* AppDelegate.swift */,
-				40FA4479251860BC00781BCC /* SceneDelegate.swift */,
-				40FA447B251860BC00781BCC /* ViewController.swift */,
-				40FA4480251860BD00781BCC /* Assets.xcassets */,
-				40FA4482251860BD00781BCC /* LaunchScreen.storyboard */,
-				40FA4485251860BD00781BCC /* Info.plist */,
-				4029AF0C2518A3F2006D8044 /* Extensions.swift */,
+				40BF448A254A952400E564F6 /* Controllers */,
+				40CD3EA5254A71F300B368F0 /* AppDelegate.swift */,
+				40CD3EA7254A71F300B368F0 /* SceneDelegate.swift */,
+				40CD3EA9254A71F300B368F0 /* ContentView.swift */,
+				40CD3EAB254A71F400B368F0 /* Assets.xcassets */,
+				40CD3EB0254A71F400B368F0 /* LaunchScreen.storyboard */,
+				40CD3EB3254A71F400B368F0 /* Info.plist */,
+				40CD3EAD254A71F400B368F0 /* Preview Content */,
 			);
-			path = somattt;
+			path = coozit;
+			sourceTree = "<group>";
+		};
+		40CD3EAD254A71F400B368F0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				40CD3EAE254A71F400B368F0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		40FA4473251860BC00781BCC /* somattt */ = {
+		40CD3EA1254A71F300B368F0 /* coozit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 40FA4488251860BD00781BCC /* Build configuration list for PBXNativeTarget "somattt" */;
+			buildConfigurationList = 40CD3EB6254A71F400B368F0 /* Build configuration list for PBXNativeTarget "coozit" */;
 			buildPhases = (
-				40FA4470251860BC00781BCC /* Sources */,
-				40FA4471251860BC00781BCC /* Frameworks */,
-				40FA4472251860BC00781BCC /* Resources */,
+				40CD3E9E254A71F300B368F0 /* Sources */,
+				40CD3E9F254A71F300B368F0 /* Frameworks */,
+				40CD3EA0254A71F300B368F0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = somattt;
-			productName = somattt;
-			productReference = 40FA4474251860BC00781BCC /* somattt.app */;
+			name = coozit;
+			productName = coozit;
+			productReference = 40CD3EA2254A71F300B368F0 /* coozit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		40FA446C251860BC00781BCC /* Project object */ = {
+		40CD3E9A254A71F300B368F0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
 				LastUpgradeCheck = 1150;
-				ORGANIZATIONNAME = WPG;
+				ORGANIZATIONNAME = coozit;
 				TargetAttributes = {
-					40FA4473251860BC00781BCC = {
+					40CD3EA1254A71F300B368F0 = {
 						CreatedOnToolsVersion = 11.5;
 					};
 				};
 			};
-			buildConfigurationList = 40FA446F251860BC00781BCC /* Build configuration list for PBXProject "somattt" */;
+			buildConfigurationList = 40CD3E9D254A71F300B368F0 /* Build configuration list for PBXProject "coozit" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -137,48 +135,50 @@
 				en,
 				Base,
 			);
-			mainGroup = 40FA446B251860BC00781BCC;
-			productRefGroup = 40FA4475251860BC00781BCC /* Products */;
+			mainGroup = 40CD3E99254A71F300B368F0;
+			productRefGroup = 40CD3EA3254A71F300B368F0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				40FA4473251860BC00781BCC /* somattt */,
+				40CD3EA1254A71F300B368F0 /* coozit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		40FA4472251860BC00781BCC /* Resources */ = {
+		40CD3EA0254A71F300B368F0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40FA4484251860BD00781BCC /* LaunchScreen.storyboard in Resources */,
-				40FA4481251860BD00781BCC /* Assets.xcassets in Resources */,
+				40CD3EB2254A71F400B368F0 /* LaunchScreen.storyboard in Resources */,
+				40CD3EAF254A71F400B368F0 /* Preview Assets.xcassets in Resources */,
+				40CD3EAC254A71F400B368F0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		40FA4470251860BC00781BCC /* Sources */ = {
+		40CD3E9E254A71F300B368F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4029AF0D2518A3F2006D8044 /* Extensions.swift in Sources */,
-				4029AF0B25186280006D8044 /* LoginViewController.swift in Sources */,
-				40FA447C251860BC00781BCC /* ViewController.swift in Sources */,
-				40FA4478251860BC00781BCC /* AppDelegate.swift in Sources */,
-				40FA447A251860BC00781BCC /* SceneDelegate.swift in Sources */,
+				40BF4490254A961100E564F6 /* Register.swift in Sources */,
+				40BF448E254A95F700E564F6 /* LoginUI.swift in Sources */,
+				40CD3EA6254A71F300B368F0 /* AppDelegate.swift in Sources */,
+				40CD3EA8254A71F300B368F0 /* SceneDelegate.swift in Sources */,
+				40CD3EAA254A71F300B368F0 /* ContentView.swift in Sources */,
+				40BF448C254A959000E564F6 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		40FA4482251860BD00781BCC /* LaunchScreen.storyboard */ = {
+		40CD3EB0254A71F400B368F0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				40FA4483251860BD00781BCC /* Base */,
+				40CD3EB1254A71F400B368F0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -186,7 +186,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		40FA4486251860BD00781BCC /* Debug */ = {
+		40CD3EB4254A71F400B368F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -246,7 +246,7 @@
 			};
 			name = Debug;
 		};
-		40FA4487251860BD00781BCC /* Release */ = {
+		40CD3EB5254A71F400B368F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -300,34 +300,38 @@
 			};
 			name = Release;
 		};
-		40FA4489251860BD00781BCC /* Debug */ = {
+		40CD3EB7254A71F400B368F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = somattt/Info.plist;
+				DEVELOPMENT_ASSET_PATHS = "\"coozit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = coozit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.somatt.Somatt.somattt;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coozit.coozit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		40FA448A251860BD00781BCC /* Release */ = {
+		40CD3EB8254A71F400B368F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = somattt/Info.plist;
+				DEVELOPMENT_ASSET_PATHS = "\"coozit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = coozit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.somatt.Somatt.somattt;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coozit.coozit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -337,25 +341,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		40FA446F251860BC00781BCC /* Build configuration list for PBXProject "somattt" */ = {
+		40CD3E9D254A71F300B368F0 /* Build configuration list for PBXProject "coozit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				40FA4486251860BD00781BCC /* Debug */,
-				40FA4487251860BD00781BCC /* Release */,
+				40CD3EB4254A71F400B368F0 /* Debug */,
+				40CD3EB5254A71F400B368F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		40FA4488251860BD00781BCC /* Build configuration list for PBXNativeTarget "somattt" */ = {
+		40CD3EB6254A71F400B368F0 /* Build configuration list for PBXNativeTarget "coozit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				40FA4489251860BD00781BCC /* Debug */,
-				40FA448A251860BD00781BCC /* Release */,
+				40CD3EB7254A71F400B368F0 /* Debug */,
+				40CD3EB8254A71F400B368F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 40FA446C251860BC00781BCC /* Project object */;
+	rootObject = 40CD3E9A254A71F300B368F0 /* Project object */;
 }
