@@ -10,18 +10,28 @@ import SwiftUI
 
 struct LoginUI: View {
     @State private var login = false
+    @State private var account = ""
+    @State private var password = ""
     
     var body: some View {
         NavigationView{
             VStack{
-                Text("coozit!")
+                Text("Coozit!")
+                TextField("Please enter account", text: $account).textFieldStyle(RoundedBorderTextFieldStyle()).padding()
+                
+                SecureField("Please enter password", text: $password).textFieldStyle(RoundedBorderTextFieldStyle()).padding()
+                
                 NavigationLink(destination: Register(), isActive: $login){
                     EmptyView()
                 }
                 
-                Button("LOGIN"){
-                    self.login = true
-                }
+                Button(action: {
+                    if (self.account.uppercased() == "ERIC" && self.password == "1234") {
+                        self.login = true
+                    }
+                }, label: {
+                    Text("Login").foregroundColor(Color.white).padding().background(Color.blue).cornerRadius(10)
+                })
             }
         }
         
